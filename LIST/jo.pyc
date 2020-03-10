@@ -1,0 +1,26 @@
+�
+Є�[c           @   s�   d  d l  Z  d  d l Z d  d l Z d Z d Z d Z d Z d Z d Z d Z	 d	 Z
+ d
+ Z d Z i d d
+ 6Z
+ d �  Z d �  Z d S(   i����Ns   [0;34ms   [1;32ms   [1;37ms   [1;31ms   [1;33ms   [0;36ms   [0;37ms   [1;30ms   [0;101ms   [0msx   Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36s
+   User-Agentc       	   C   s  t  j d d t �}  t j d |  j � d } | j d d � } t j d � d j	 t
+ � GHd	 GHd
+ GHd GHd j	 t � GHd
+ GHd j	 t
+ t � GHd j	 t
+ t t
+ t t
+ t t
+ t � GHd j	 t
+ t t t t t � GHd j	 t
+ t � GHd j	 t
+ t | t
+ � GHt �  d  S(   Ns(   https://www.insecam.org/en/bycountry/JO/t   headerss   "?page=",\s\d+i   s   page=", t    t   clears   {}        ____ s      _[]_/____\__n_ s     |_____.--.__()_|s     |I   //# \\    |s   {}  |P   \\__//    | s     |CS   '--'     | s5   {}  '--------------'----------{}------------------.  s@   {}  | {}Author  : {}HVmbl3 {}     | {}INDO{}N{}{}ESIA         | s;   {}  | {}Youtube : {}Shodiq 2701 {}| {}+62-813-6487-3762 {}|s5   {}  '------------------------------------{}-------'  s   {}       [ {}List page : {} {}](   t   requestst   getR    t   ret   findallt   textt   replacet   ost   systemt   formatt   rt   wt   irt   resett   lgrayt   run(   t   rest   findpaget	   rfindpage(    (    s    /home/shodiq2701/ipcs/LIST/us.pyt   unitedstates   s     
+#c          C   s�   y� t  d � }  d t |  � } d GHt j | d t �} t j d | j � } d } x9 | D]1 } | | } d j t	 t
+ | t	 � GH| d 7} q[ WWn d GHt	 d t
+ GHn Xd  S(	   Ns-   [1;31m       [ [1;37mPage [1;31m][1;37m> s.   https://www.insecam.org/en/bycountry/JO/?page=R   R    s   http://\d+.\d+.\d+.\d+:\d+i   s   {}[ {}{} {}]s   Makasi udh pake tools kami(   t   inputt   strR   R   R    R   R   R   R   R   R
+   (   t   paget   urlR   t   findipt   countt   _t   hasil(    (    s    /home/shodiq2701/ipcs/LIST/us.pyR   (   s    
+
+(   R   R	   R   t   bt   gR
+   R   t   yt   cyanR   t   dgrayR   R   R    R   R   (    (    (    s    /home/shodiq2701/ipcs/LIST/us.pyt   <module>   s   $
